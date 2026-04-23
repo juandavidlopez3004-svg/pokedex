@@ -1,6 +1,6 @@
 {
   "globalHeaders": {
-    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://raw.githubusercontent.com https://pokeapi.co https:; font-src 'self' data:; connect-src 'self' https://pokeapi.co;",
+    "Content-Security-Policy": "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src * data: blob:; font-src 'self' data: https:; connect-src *;",
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "DENY",
@@ -9,6 +9,6 @@
   },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/assets/*", "/*.{css,js,png,jpg,ico,json}"]
+    "exclude": ["/assets/*", "/*.{css,js,png,jpg,ico,json,gif,webp}"]
   }
 }
