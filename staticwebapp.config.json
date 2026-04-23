@@ -1,12 +1,6 @@
 {
-  "routes": [
-    {
-      "route": "/pokedex-angular/*",
-      "rewrite": "/{*}"
-    }
-  ],
   "globalHeaders": {
-    "Content-Security-Policy": "default-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:; font-src * data:; connect-src *;",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://raw.githubusercontent.com https://pokeapi.co https:; font-src 'self' data:; connect-src 'self' https://pokeapi.co;",
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
     "X-Content-Type-Options": "nosniff",
     "X-Frame-Options": "DENY",
@@ -15,6 +9,6 @@
   },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/assets/*", "/pokedex-angular/assets/*", "/*.{css,js,png,jpg,ico,json,gif}"]
+    "exclude": ["/assets/*", "/*.{css,js,png,jpg,ico,json}"]
   }
 }
