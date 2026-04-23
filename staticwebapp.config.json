@@ -1,8 +1,8 @@
 {
   "routes": [
     {
-      "route": "/pokedex-angular/assets/*",
-      "rewrite": "/assets/{*}"
+      "route": "/pokedex-angular/*",
+      "rewrite": "/{*}"
     }
   ],
   "globalHeaders": {
