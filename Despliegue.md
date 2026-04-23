@@ -10,7 +10,7 @@ Juan David Lopez
 En esta evidencia documente el proceso real que segui para desplegar la aplicacion `pokedex-angular` en Azure Static Web Apps sin modificar el codigo fuerte de la aplicacion, cumpliendo los criterios del profesor.
 
 ## Descripcion general del despliegue
-El despliegue que hice fue de una aplicacion frontend Angular publica, conectada a PokéAPI, usando GitHub como fuente y Azure Static Web Apps como hosting.
+El despliegue que hice fue de una aplicacion frontend Angular publica, conectada a PokéAPI, usando GitHub como fuente y Azure Static Web Apps como hosting, con dominio personalizado.
 
 Este despliegue funciona asi:
 
@@ -42,6 +42,7 @@ Developer -> GitHub (main) -> GitHub Actions -> Azure Static Web Apps -> URL pub
 - Azure Static Web Apps (Plan Free).
 - GitHub Actions.
 - GitHub Secrets para el token de despliegue.
+- Dominio personalizado adquirido en `NAME.COM` usando correo institucional de la universidad.
 
 Secreto usado en el workflow:
 
@@ -295,7 +296,7 @@ Si este comando falla, el problema no esta en Azure.
 URL final:
 
 ```bash
-https://brave-water-0fe172b1e.7.azurestaticapps.net
+https://www.jimuax.app
 ```
 
 ### Validacion tecnica

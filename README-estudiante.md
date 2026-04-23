@@ -11,7 +11,7 @@ En este laboratorio desplegue una aplicacion frontend en Angular que consume la 
 - Navegacion por rutas (home, detalle, about, error, not-found).
 - Estilos personalizados con SCSS.
 
-Este proyecto me permitio practicar integracion de frontend con APIs, organizacion modular en Angular y despliegue continuo en Azure Static Web Apps.
+Este proyecto me permitio practicar integracion de frontend con APIs, organizacion modular en Angular y despliegue continuo en Azure Static Web Apps con dominio personalizado.
 
 ## Tecnologias utilizadas (detectadas del codigo)
 
@@ -150,10 +150,13 @@ npm run build
 - Repositorio conectado: `juandavidlopez3004-svg/pokedex`.
 - Rama de despliegue: `main`.
 - Build de salida usado: `dist/pokedex-angular`.
+- Dominio personalizado configurado: `https://www.jimuax.app`.
+- Proveedor del dominio: `NAME.COM`.
+- Dominio adquirido con correo institucional de la universidad.
 - URL final obtenida:
 
 ```bash
-https://brave-water-0fe172b1e.7.azurestaticapps.net
+https://www.jimuax.app
 ```
 
 ## Errores que tuve durante el despliegue
@@ -215,4 +218,4 @@ Durante todo el proceso no modifique el codigo fuerte (logica principal de la ap
 ## Recursos del proyecto
 
 - Repositorio: `https://github.com/juandavidlopez3004-svg/pokedex`
-- Aplicacion desplegada: `https://brave-water-0fe172b1e.7.azurestaticapps.net`
+- Aplicacion desplegada: `https://www.jimuax.app`
