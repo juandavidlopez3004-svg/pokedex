@@ -1,4 +1,10 @@
 {
+  "routes": [
+    {
+      "route": "/pokedex-angular/assets/*",
+      "rewrite": "/assets/{*}"
+    }
+  ],
   "globalHeaders": {
     "Content-Security-Policy": "default-src * 'unsafe-inline' 'unsafe-eval'; img-src * data: blob:; font-src * data:; connect-src *;",
     "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
@@ -9,6 +15,6 @@
   },
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/assets/*", "/*.{css,js,png,jpg,ico,json}"]
+    "exclude": ["/assets/*", "/pokedex-angular/assets/*", "/*.{css,js,png,jpg,ico,json,gif}"]
   }
 }
