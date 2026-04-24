@@ -309,3 +309,26 @@ https://www.jimuax.app
 
 ## Restriccion del profesor cumplida
 Durante esta actividad no modifique codigo fuerte (logica principal de la aplicacion). Los cambios fueron solo de despliegue, infraestructura, seguridad y documentacion.
+
+## ⚡ Desafío Maestro — Auditoría SSL Labs
+
+### Dominio personalizado configurado
+https://www.jimuax.app
+
+### Herramienta utilizada
+SSL Labs by Qualys — https://www.ssllabs.com/ssltest/
+
+### Resultado
+Calificación: **A+**
+
+### Hallazgos positivos
+- Certificado SSL válido y correctamente configurado
+- Soporte de protocolo TLS 1.3 habilitado
+- HSTS (HTTP Strict Transport Security) con larga duración implementado
+- Intercambio de claves seguro
+- Fuerza del cifrado: 100/100
+
+### Conclusión
+Azure Static Web Apps provee automáticamente certificados SSL/TLS 
+de alta calidad, lo que garantiza comunicaciones seguras entre el 
+cliente y el servidor sin configuración adicional.

@@ -1,6 +1,9 @@
 name: Run test-coverage
 
-on: [push]
+on:
+  push:
+    paths-ignore:
+      - '**/*.md'
 
 jobs:
   test:
