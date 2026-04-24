@@ -307,6 +307,10 @@ https://www.jimuax.app
 - Revisar headers HTTP en respuesta.
 - Ejecutar escaneo de seguridad de headers.
 
+Evidencia en SecurityHeaders:
+
+![Resultado SecurityHeaders](securityheaders-jimuax.png)
+
 ## Restriccion del profesor cumplida
 Durante esta actividad no modifique codigo fuerte (logica principal de la aplicacion). Los cambios fueron solo de despliegue, infraestructura, seguridad y documentacion.
 
@@ -320,6 +324,10 @@ SSL Labs by Qualys — https://www.ssllabs.com/ssltest/
 
 ### Resultado
 Calificación: **A+**
+
+Evidencia en SSL Labs:
+
+![Resultado SSL Labs](ssl-labs-jimuax.png)
 
 ### Hallazgos positivos
 - Certificado SSL válido y correctamente configurado
